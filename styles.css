@@ -1,0 +1,157 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+    font-family: "Roboto", sans-serif;
+}
+
+.first-container {
+    background-color: #1f2937;
+    padding-inline: 15%;
+    padding-top: 1%;
+    padding-bottom: 8%;
+    margin-bottom: 4%;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10%;
+}
+
+.header-logo-text {
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+.header-links {
+    font-size: 18px;
+    color: #e5e7eb;
+    display: flex;
+    gap: 18px;
+}
+
+.hero-title {
+    font-size: 48px;
+    color: #f9faf8;
+}
+
+.hero-subtext {
+    font-size: 18px;
+    color: #e5e7eb;
+    margin-block: 4%;
+}
+
+.header-button {
+    border-radius: 8px;
+    font-size: 18px;
+    color: white;
+    background-color: #3882f6;
+    padding-inline: 28px;
+    padding-block: 8px;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    column-gap: 90px;
+}
+
+.second-container-text {
+    font-size: 36px;
+    text-align: center;
+    font-weight: 900;
+    margin-bottom: 4%;
+}
+
+.second-container-images-with-text {
+    display: flex;
+    justify-content: center;
+    column-gap: 3.5%;
+}
+
+.images-with-text {
+    width: 150px;
+}
+
+.image-item {
+    border: solid 5px #3882f6;
+    border-radius: 15px;
+    margin-bottom: 2%;
+}
+
+.text-under-image {
+    text-align: center;
+    color: grey;
+}
+
+.second-container {
+    padding-bottom: 8%;
+}
+
+.third-container {
+    background-color: #e5e7eb;
+}
+
+.quote {
+    padding-inline: 22%;
+    padding-block: 9%;
+}
+
+.quote-body {
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+}
+
+.quote-author {
+    font-size: 22px;
+    font-weight: 600;
+    text-align: right;
+}
+
+.fourth-container {
+    padding-inline: 14%;
+    padding-block: 6%;
+}
+
+.cta-box {
+    background-color: #3882f6;
+    padding-inline: 10%;
+    padding-block: 4.5%;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.cta-text-main {
+    font-size: 24px;
+    font-weight: 600;
+    color: white;
+}
+
+.cta-text-sub {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.cta-button {
+    border: solid 2.5px white;
+    border-radius: 12px;
+    padding-inline: 40px;
+    font-size: 20px;
+    color: white;
+}
+
+.fifth-container {
+    background-color: #1f2937;
+    text-align: center;
+    padding-block: 2.7%;
+    color: whitesmoke;
+    font-size: 18px;
+
+}
